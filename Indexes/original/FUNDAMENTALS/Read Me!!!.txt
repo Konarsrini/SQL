@@ -1,0 +1,5 @@
+FUNDAMENTALS ==>
+Has thousands of generated dummy data in the Artist table to test how indexes improve performance.
+
+FUNDAMENTALS_CLEAN ==>
+Is the clean version

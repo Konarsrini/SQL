@@ -1,0 +1,6 @@
+		Select * from 
+		(
+		select StoreName, Rank() Over (partition by City order by Size desc) Rank_Num
+		from STORE_Test
+		) t
+		Where Rank_Num = 1
